@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+}
+
+.container {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;    
+}
+
+nav {
+    background-color: greenyellow;
+}
+
+li {
+    display: inline-block;  
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+main {
+    background-color: yellow;
+    display: flex; 
+}
+
+.article {
+    display: inline-block;
+}
+
+p {
+    width: 50%;
+}
+
+.orange {
+    background-color: orange;
+    width: 24em;
+    height: 16em;
+}
+
+footer {
+    background-color: rgb(46, 44, 44);
+    margin: 20px 0;
+}
+
+@media all and (max-width: 480px) {
+    .container {
+    /*no puede salir el naranjito*/
+}
+}
+
+
+@media all and (min-width: 480px) and (max-width: 1000x) {
+    .container {
+    
+}
+}
+
+@media all and (min-width: 1000px) {
+    .container {
+   
+}
+}

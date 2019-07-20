@@ -1,0 +1,9 @@
+p {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    display: inline-block;
+}

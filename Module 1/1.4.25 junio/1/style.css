@@ -1,0 +1,13 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-element {
+    background-color: darkorchid;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}

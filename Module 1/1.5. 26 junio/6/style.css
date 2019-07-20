@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.cookies-message {
+    height: 100px;
+    background-color: #ffff00;
+    position: absolute;
+    position: fixed;
+    top: 80vh;
+    padding-top: 40px;
+    width: 100vw;
+}
+
+.main-text {
+    position: relative;
+}

@@ -1,0 +1,40 @@
+@import 'core/mixins';
+@import 'core/variables';
+@import 'layout/header';
+
+/* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page__main {
+    height: 100vh;
+    background-color: blue;
+}
+
+.section_1 {
+    padding-top: 75px;
+    height: $section_1-height;
+    background-color: $section_1-background-color;
+    @include absoluteCentered()
+}
+
+.section_2 {
+    height: $section_1-height;
+    background-color: $section_2-background-color;
+    @include absoluteCentered() flex-direction: column;
+}
+
+.button_section_2 {
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+
+/*
+@import 'core/settings';
+@import 'core/links';
+*/

@@ -1,0 +1,61 @@
+<!--
+Aviso de cookies
+Vamos a definir un documento HTML con varios divs que contengan suficiente texto como para que la página se muestre con scroll (barras de desplazamiento). El último de los divs debe:
+contener el texto "Esta página web utiliza cookies. Si continúa navegando acepta el uso de cookies.".
+un valor height (altura) de 100 píxeles y color de fondo amarillo. 
+Usando posicionamiento fixed, tenemos que fijar este div en la parte inferior de la página de modo que se visualize siempre, aún cuando hagamos scroll.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum et justo a fringilla. Fusce eget ante non libero maximus dictum. In quis elementum tellus. Phasellus nec elit facilisis, sodales eros ut, elementum dolor. Pellentesque gravida
+            pretium mauris ut condimentum. Donec mollis, tortor non fermentum tempus, quam velit rhoncus metus, a congue nibh dolor ac lectus. Cras orci tortor, auctor suscipit ultrices at, tincidunt sit amet ligula. Morbi molestie risus a neque imperdiet,
+            vel tincidunt lectus gravida. Praesent scelerisque vel diam vel efficitur. Aliquam ullamcorper lacus id est ornare, eget volutpat nunc facilisis.
+        </p>
+
+        <p>Morbi nec varius turpis. Suspendisse luctus volutpat tortor. Aliquam pellentesque eget turpis ac efficitur. Cras libero urna, dictum id tincidunt et, tincidunt sit amet sapien. Phasellus iaculis faucibus nulla a luctus. Integer finibus mi nec
+            erat feugiat condimentum. Phasellus tempor vitae lectus at sodales. Vivamus mattis fermentum nibh sit amet aliquet.
+        </p>
+
+        <p>Maecenas non efficitur quam. Fusce nec justo fringilla neque placerat luctus. Duis mollis mi est, non volutpat nibh interdum a. Phasellus porta purus a gravida maximus. In at quam vitae lacus porttitor convallis in nec mauris. Maecenas sit amet
+            libero eget erat ultricies auctor. Donec ultricies scelerisque tempor. Nunc vulputate nisl vitae risus mattis, imperdiet efficitur tortor finibus.</p>
+
+        <p>Ut pretium tellus nibh, et viverra lectus pretium ut. Donec augue justo, commodo in ex sit amet, molestie ullamcorper erat. Vivamus vulputate augue eu risus ullamcorper, in rutrum nunc volutpat. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Duis erat nibh, accumsan eu ipsum eu, congue ultricies nibh. Curabitur euismod, sapien quis porttitor dignissim, est dui elementum erat, id imperdiet nunc lacus quis enim. Praesent semper iaculis sapien vitae
+            fringilla. Aliquam erat volutpat. Integer quam erat, semper vel mollis at, porttitor quis velit. Morbi arcu turpis, malesuada in velit ac, tempus efficitur libero. Sed varius diam ligula, id luctus est porta eu. Aliquam fermentum sapien eu
+            nisl mollis, at lacinia arcu auctor. In eget lacus sem. Proin laoreet enim a lacus venenatis vulputate. Vestibulum varius erat tellus, vel dignissim nibh vulputate in. Donec nec enim nulla.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum et justo a fringilla. Fusce eget ante non libero maximus dictum. In quis elementum tellus. Phasellus nec elit facilisis, sodales eros ut, elementum dolor. Pellentesque gravida
+            pretium mauris ut condimentum. Donec mollis, tortor non fermentum tempus, quam velit rhoncus metus, a congue nibh dolor ac lectus. Cras orci tortor, auctor suscipit ultrices at, tincidunt sit amet ligula. Morbi molestie risus a neque imperdiet,
+            vel tincidunt lectus gravida. Praesent scelerisque vel diam vel efficitur. Aliquam ullamcorper lacus id est ornare, eget volutpat nunc facilisis.
+        </p>
+
+        <p>Morbi nec varius turpis. Suspendisse luctus volutpat tortor. Aliquam pellentesque eget turpis ac efficitur. Cras libero urna, dictum id tincidunt et, tincidunt sit amet sapien. Phasellus iaculis faucibus nulla a luctus. Integer finibus mi nec
+            erat feugiat condimentum. Phasellus tempor vitae lectus at sodales. Vivamus mattis fermentum nibh sit amet aliquet.
+        </p>
+
+        <p>Maecenas non efficitur quam. Fusce nec justo fringilla neque placerat luctus. Duis mollis mi est, non volutpat nibh interdum a. Phasellus porta purus a gravida maximus. In at quam vitae lacus porttitor convallis in nec mauris. Maecenas sit amet
+            libero eget erat ultricies auctor. Donec ultricies scelerisque tempor. Nunc vulputate nisl vitae risus mattis, imperdiet efficitur tortor finibus.</p>
+
+        <p>Ut pretium tellus nibh, et viverra lectus pretium ut. Donec augue justo, commodo in ex sit amet, molestie ullamcorper erat. Vivamus vulputate augue eu risus ullamcorper, in rutrum nunc volutpat. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Duis erat nibh, accumsan eu ipsum eu, congue ultricies nibh. Curabitur euismod, sapien quis porttitor dignissim, est dui elementum erat, id imperdiet nunc lacus quis enim. Praesent semper iaculis sapien vitae
+            fringilla. Aliquam erat volutpat. Integer quam erat, semper vel mollis at, porttitor quis velit. Morbi arcu turpis, malesuada in velit ac, tempus efficitur libero. Sed varius diam ligula, id luctus est porta eu. Aliquam fermentum sapien eu
+            nisl mollis, at lacinia arcu auctor. In eget lacus sem. Proin laoreet enim a lacus venenatis vulputate. Vestibulum varius erat tellus, vel dignissim nibh vulputate in. Donec nec enim nulla.</p>
+    </div>
+    <div class="cookies-message">Esta página web utiliza cookies. Si continúa navegando acepta el uso de cookies.</div>
+</body>
+
+</html>

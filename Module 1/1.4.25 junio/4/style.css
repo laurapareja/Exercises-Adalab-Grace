@@ -1,0 +1,20 @@
+img {
+    height: 100px;
+}
+
+.contenedor-noticias {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.noticia {
+    width: 300px;
+    box-sizing: border-box;
+    border: 0.5px solid blue;
+    flex-basis: 50%;
+}
+
+.noticia1 {
+    flex-basis: 100%;
+}

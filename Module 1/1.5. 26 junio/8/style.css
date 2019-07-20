@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-pdf {
+    background-color: antiquewhite;
+    border-bottom: 0.5px solid grey;
+    height: 30px;
+    width: 50%;
+    position: relative;
+    top: 45vh;
+    left: 50vh;
+    display: flex;
+}
+
+.box-document-name {
+    width: 90%;
+}
+
+.type-document {
+    width: 10%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}

@@ -1,0 +1,8 @@
+li {
+    margin: 12px;
+    display: inline-block;
+}
+
+.menu-button {
+    background-color: aqua;
+}

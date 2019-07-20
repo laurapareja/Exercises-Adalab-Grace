@@ -1,0 +1,44 @@
+.box {
+    margin: 0 20px;
+}
+
+h1 {
+    font-style: inherit;
+    size: 32px;
+}
+
+p {
+    size: 18px;
+    line-height: 24px;
+}
+
+@media all and (min-width: 768px) {
+    .box {
+        margin: 30px 40px;
+    }
+    h1 {
+        font-style: inherit;
+        size: 28px;
+    }
+    p {
+        size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media all and (min-width: 1140px) {
+    .box {
+        max-width: 750px;
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        font-style: inherit;
+        size: 42px;
+    }
+    p {
+        size: 24px;
+        line-height: 32px;
+    }
+}

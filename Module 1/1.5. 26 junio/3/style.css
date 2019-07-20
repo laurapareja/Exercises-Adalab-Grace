@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-title {
+    background-color: purple;
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.main-text {
+    position: relative;
+    top: 80px;
+    background-color: beige;
+}

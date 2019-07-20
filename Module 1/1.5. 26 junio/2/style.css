@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja {
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.caja-1 {
+    background-color: lightcoral;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.caja-2 {
+    background-color: lightcyan;
+    position: relative;
+    bottom: 320px;
+    right: 150px;
+}
+
+.caja-3 {
+    background-color: lightgreen;
+    position: relative;
+    left: 100px;
+    bottom: 240px;
+}

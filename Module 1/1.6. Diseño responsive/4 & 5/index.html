@@ -1,0 +1,37 @@
+<!--
+
+    3) Abramos ahora las herramientas de desarrollo de Chrome y lancemos el simulador de
+dispositivos móviles. Probemos varios dispositivos o resoluciones. ¿Qué pasa? ¿Cuándo se
+vuelve azul? ¿Cuándo se vuelve rojo?
+
+
+
+Cuando cambiamos de tamaño la ventana el color de fondo se cambia, pero con devtool no se afecta el estilo al cambiar la visualizacion del dispositivo.
+
+Los dispositivos móviles (teléfonos y tablets) utilizan este "viewport" para mostrar la página de
+una forma curiosa: salvo que se le indique lo contrario intentarán mostrarla al máximo tamaño
+posible, haciendo suficiente zoom para permitir que las páginas no adaptadas se puedan ver
+(aunque diminutas) por eso en nuestro ejemplo las mediaqueries no "funcionan".
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+Con la etiqueta meta viewport le decimos a estos dispositivos cómo tienen que comportarse.
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viewport Sample</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+</htm

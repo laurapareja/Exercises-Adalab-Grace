@@ -1,0 +1,21 @@
+.container {
+    border: 1px solid deeppink;
+    overflow: auto;
+}
+
+.col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.container--1 {
+    height: 100px;
+    width: 200px;
+    /* Añadir propiedad overflow */
+}
+
+.container--2 {
+    height: 200px;
+    /* Añadir propiedad overflow */
+}

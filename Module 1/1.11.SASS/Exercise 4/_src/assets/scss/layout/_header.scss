@@ -1,0 +1,12 @@
+.page__header {
+    position: fixed;
+    width: 100vw;
+    @include absoluteCentered() height: $page_header-height;
+    background-color: $page_header-background-color;
+    @media (min-width: 768px) {
+        $page_header-height: 100px;
+    }
+    @media (min-width:1280px) {
+        $page_header-height: 110px;
+    }
+}

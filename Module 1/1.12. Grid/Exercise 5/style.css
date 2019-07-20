@@ -1,0 +1,25 @@
+.header {
+    background-color: lightpink;
+    height: 20vh;
+}
+
+.menu {
+    background-color: lightseagreen;
+    height: 60vh;
+}
+
+.content {
+    background-color: lightgoldenrodyellow;
+    height: 60vh;
+}
+
+.footer {
+    background-color: lightskyblue;
+    height: 20vh;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
