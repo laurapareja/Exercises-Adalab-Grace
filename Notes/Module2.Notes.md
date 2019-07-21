@@ -1,7 +1,5 @@
 # 1. Intro a la programación
 
-
-
 ## Example "Hola mundo"
 
 ```html
@@ -304,4 +302,149 @@ isNaN show us if the variable is NaN or not.
 let userAge = document.querySelector('.user__age');
 userAge = parseInt(userAge);
 console.log('La usuaria no ha introducido una edad válida:', isNaN(userAge));
+```
+
+# 3. Conditionals
+
+## Booleans
+
+We use them to keep true or false data or to become comparations to true or false info.
+
+Ex. 
+```js
+const filled = false; // Este booleano es falso
+const solved = true; // Este booleano es verdadero
+```
+
+### Truthy & Falsy
+
+
+| The values of falsy are: |
+|--------|
+| false | 
+| null |
+| undefined |
+| 0 |
+| NaN |
+| '' |
+| "" |
+
+### Equality
+
+=== strict equal
+==  only compares the value (not the type of data)
+we can't use  ==
+
+![](./images/comparsion.png)
+
+
+### Inequality
+
+!== strict not equal 
+check if 2 values are different (value & type)
+
+
+```js
+const currentVegetable = 'lettuce';
+const isLettuce = currentVegetable === 'lettuce'; // true
+const isTomato = currentVegetable === 'tomato'; // false
+---
+const result = 5;
+result !== 4 + 5; // true
+result !== 0 + 5; // false
+
+```
+
+* < (less than)
+* > (greater than) 
+* <= (less than or equal) 
+* >= (greater than or equal)
+
+```js
+const result = 5;
+
+result >= 4 + 5; // false
+result >= 0 + 5; // true
+result >= 4 - 5; // true
+```
+
+### Logical operators
+
+![](./images/logicaloperators.png)
+
+with booleans, 
+
+# Negation
+! NOT
+```js
+const emptyNameField = true; // true
+const nameIsFilled = !emptyNameField; // false
+---
+
+const nameField = document.querySelector('.input-name').value; // Accedemos al valor de un input que está en la página, y está vacío (falsy)
+const emptyNameField = !nameField; // true
+const nameIsFilled = !emptyNameField; // false
+```
+
+Also we can use !! to use negation twice.
+
+```js
+const nameField = document.querySelector('.input-name').value; // '' (falsy)
+const nameIsFilled = !!nameField; // false
+```
+
+# AND
+expression1 && expression2
+
+```js
+const name = 'María';
+const age = 35;
+
+name === 'María' && age >= 30; // true
+name === 'Marta' && age >= 30; // false
+name === 'María' && age >= 40; // false
+name === 'Marta' && age >= 40; // false
+
+---
+const isModerator = true;
+const isAdmin = false;
+const userName = 'Layla';
+
+// Como la primera expresión es `truthy`, se devuelve la segunda expresión
+const moderatorName = isModerator && userName; // Layla
+
+// Como la primera expresión es `falsy`, se devuelve esta, y la segunda ni siquiera llega a evaluarse.
+const adminName = isAdmin && userName; // false
+
+```
+only the result will be true if both expressions are truthy
+
+# OR
+expression1 || expression2
+
+Almost one of the expressions must be truthy--> true
+If both are falsy--> false
+
+```js
+const name = 'María';
+const age = 35;
+
+name === 'María' || age >= 30; // true
+name === 'Marta' || age >= 30; // true
+name === 'María' || age >= 40; // true
+name === 'Marta' || age >= 40; // false
+
+---
+
+const welcomeMessageElement = document.querySelector('.welcome__text');
+
+const isAdmin = false;
+const adminText = isAdmin && 'administradora';
+const isModerator = true;
+const moderatorText = isModerator && 'moderadora';
+
+// Como la primera expresión es `falsy`, se devuelve la segunda expresión
+welcomeMessageElement.innerHTML = `Bienvenida ${adminText ||
+  moderatorText}. ¡Es genial verte de nuevo!`;
+  
 ```
