@@ -446,5 +446,47 @@ const moderatorText = isModerator && 'moderadora';
 // Como la primera expresión es `falsy`, se devuelve la segunda expresión
 welcomeMessageElement.innerHTML = `Bienvenida ${adminText ||
   moderatorText}. ¡Es genial verte de nuevo!`;
-  
+
 ```
+# If... else
+```js
+const age = 35;
+
+if (age > 30) {
+  console.log('Tienes más de 30 años'); //Esta línea se ejecuta solo si se cumple la condición
+}
+```
+if = to define a conditional
+() = to indicate a condition
+{} = a block of code that will be executed if the condition is met
+
+
+# classList.contains
+To check if an element has or not a class
+it returns with an boolean (true/false)
+```js
+const activableSection = document.querySelector('.activable-section');
+
+// Si contiene la clase hidden
+if (activableSection.classList.contains('hidden')) {
+  // Elimina la clase
+  activableSection.classList.remove('hidden');
+} else {
+  // Sino
+  // Añade la clase hidden
+  activableSection.classList.add('hidden');
+}
+```
+
+# Ternarios
+
+no nos vale  para usar console
+solo para dos opciones, if/else
+
+**.js-item, una clase preferible en html**
+
+libreria matemática
+```js
+Math.PI
+```
+js tambien tiene document. palabras clave que tienen un valor concreto en js
