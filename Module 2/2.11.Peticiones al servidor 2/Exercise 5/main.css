@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.dark {
+    background-color: darkblue;
+}
+
+.dark h1 {
+    color: cyan;
+}
+
+.dark p {
+    color: white;
+}
+
+.light {
+    background-color: lightblue;
+}
+
+.light h1 {
+    color: darkblue;
+}
+
+.light p {
+    color: lightgoldenrodyellow;
+}

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}

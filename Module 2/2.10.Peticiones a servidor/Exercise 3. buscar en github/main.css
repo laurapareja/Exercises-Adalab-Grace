@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.body {
+    height: 100vh;
+}
+
+.form {
+    padding: 20px;
+    height: 15vh;
+}
+
+.container {
+    background-color: lightseagreen;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60vh 20vh;
+    padding: 10px;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.img {
+    width: 200px;
+}

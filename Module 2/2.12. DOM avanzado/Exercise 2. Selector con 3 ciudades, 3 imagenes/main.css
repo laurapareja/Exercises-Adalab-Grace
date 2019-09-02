@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.img {
+    height: 80vh;
+}

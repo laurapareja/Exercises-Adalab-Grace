@@ -1,0 +1,15 @@
+.nav {
+    position: fixed;
+}
+
+.section1 {
+    background-color: lightblue;
+}
+
+.section2 {
+    background-color: lightseagreen;
+}
+
+.section3 {
+    background-color: lightskyblue;
+}
