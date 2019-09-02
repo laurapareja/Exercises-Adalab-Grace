@@ -10,7 +10,7 @@ const runners = [
 
 let acc = 0;
 const winner = runners.reduce((acc, runner) => {
-    if (runner.time > acc.time) {
+    if (runner.time < acc.time) {
         acc = runner;
     } else {
         acc = acc;
