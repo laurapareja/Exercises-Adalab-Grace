@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.halfpage {
+  width: 50vw;
+  background-color: blue;
+}
+.right {
+  position: absolute;
+  right: 0;
+}
+.left {
+  position: absolute;
+  left: 0;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+.mediacard-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+}
+.mediacard {
+  background-color: white;
+  border: solid 1px grey;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: grey;
+}
+.mediacard-title-container {
+  display: flex;
+  padding: 20px;
+}
+.mediacard-titleSubtitle-containter {
+  padding-left: 20px;
+}
+.mediacard-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+}
+.mediacard-subtitle {
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 0 0 5px 0;
+}
+.mediacard-text {
+  font-size: 14px;
+  padding: 0 20px 20px 20px;
+}
+.mediacard-footer {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.mediacard-footer-text {
+  color: lightgray;
+}
+.heart {
+  width: 20px;
+  color: red;
+  font-size: 15px;
+  padding: 5px;
+}
