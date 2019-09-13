@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.form {
+	margin: 30px;
+}
+.card {
+	height: 400px;
+	width: 300px;
+	border: 1px solid grey;
+	margin: 30px;
+}
+.filmName {
+	background-color: black;
+	height: 90px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+}
+.filmDescription {
+	background-color: lightslategray;
+	height: 130px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.filmLanguage {
+	background-color: lightseagreen;
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 70px 10px 70px;
+}
+.ageClassification,
+.gender {
+	display: flex;
+	flex-direction: column;
+}
+.filmPublic {
+	text-align: center;
+	background-color: lightgreen;
+	border-radius: 50px;
+	padding: 5px;
+	height: 30px;
+	width: 200px;
+	margin: 10px 45px 10px 45px;
+}
+.filmGender {
+	text-align: center;
+	padding: 5px;
+	height: 30px;
+	width: 200px;
+	margin: 10px 45px 10px 45px;
+}
